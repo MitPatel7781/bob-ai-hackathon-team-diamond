@@ -34,26 +34,31 @@ submission:
    calculate GST automatically, manage stock, and scan barcodes. It also provides secure cloud storage and digital invoice sharing through SMS and QR codes.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+    - "Digital invoice generation with automatic GST and total calculation"            # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
+    - "Barcode scanning using Google ML Kit"
+    - "Real-time inventory and stock management"
+    - "Invoice sharing through SMS and QR codes"
+    - "Sales reports and taxation management"                              # optional 5th
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages: ["Kotlin","XML"]                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    frameworks: ["Andorid","Material Design"]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: ["Bob AI"]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    databases: ["Firebase Firestore"]                      # e.g., ["PostgreSQL", "Redis"]
+    other: ["Firebase Authentication"
+      "Firebase Storage"
+      "Google ML Kit"
+      "Android Studio"
+      "GitHub"]                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+     We are most proud of building an easy-to-use paperless billing system
+    that combines invoice generation, barcode scanning, inventory management,
+    GST calculation, and digital invoice sharing in one Android application.
 
   known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+    The current system is limited to Android devices and does not currently
+    support web or iOS platforms.
 
 # =============================================================================
 # ARTIFACT LOCATIONS
